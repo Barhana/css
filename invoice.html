@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=table, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        table{
+            border-collapse: collapse;
+           }
+           .p1
+           {
+            align-content: left;
+            border: 1px solid black;
+            padding-top: 25px  ;padding-bottom: 6px;padding-left: 30px;
+            width: 45%; height: 50px; color:white;background-color: gray;font-size: 20px;
+            align-content: center;
+           }
+        
+           .white
+            {
+            /*color: rgb(255,255,255);*/
+            background-color:white;width: 80%;height: 20px;
+            }
+            .gray
+            {
+            /*color: rgb(90,90,90);*/
+            background-color:gray;width: 80%;height: 20px;
+            }
+            body
+            {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+           
+            
+    </style>
+</head>
+<body>
+<div>
+    <div>
+    <table width="100%" border="0" >
+        
+        <tr >
+            <td align="left"><p ><b style="font-size: 30px;">East Repair Inc;</b><br>
+                                <small>My Company Slogan </small> </td>
+            <td align="right"><h1 style="color: blue;" >Invoice</h1></td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td align="left"><p class="p1">Insert Your Logo</p></td>
+            <td align="right">
+                <table width="100%">   
+                    <tr>
+                     <td align="right">
+                        <table>
+                        <tr> <td>Date: </td></tr>
+                        <tr><td>Invoice: </td></tr>
+                       <tr> <td>Customer ID: </td></tr>
+                       <tr>   <td> Purchase Order:</td> </tr>
+                       <tr>   <td>    Payment Due by: </td></tr>
+                       </td>
+                        </table>
+                       <td align="right">
+                         <table border="1"  align="right">
+                          <tr><td> September 8,2020 </td>  </tr>
+                         <tr><td>INV-00000 </td> </tr>
+                         <tr><td> [ABC12345]</td>  </tr>
+                         <tr><td> 12345678 </td> </tr>
+                         <tr><td> October 8,2020</td></tr>
+                          </table>
+                       </td>
+                    </tr> 
+                </table>
+            </td>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td>
+                    <table "border=0" width="55%" align="left">
+                    <tr><td  bgcolor="blue" >Bill To:</td></tr>
+                    <tr><td >John Smith</td></tr>
+                    <tr><td >[Company Name]</td></tr>
+                    <tr><td >2,Court square</td></tr>
+                    <tr><td >Newyork,NY 12210</td></tr>
+                    <tr><td >0-000-000-0000</td></tr>
+                    </table>
+            </td>
+            <td>
+                <table border="0" align="right" width="50%">
+                <tr><td  bgcolor="blue">Ship to(If Different):</td></tr>
+                <tr><td>John Smith</td></tr>
+                <tr><td>[Company Name]</td></tr>
+                <tr><td>37,Preview Drive </td></tr>
+                <tr><td>Cambridge,MA 12210 </td></tr>
+                <tr><td>0-00-000-0000</td></tr>
+               </table>
+            </td>
+        </tr>
+        <br>
+        </div>
+        <tr>
+            <table  border="1" width="100%" align="">
+                <tr style="background-color:blue;width: 80%;height: 20px;"><td>Description </td>
+                    <td align="right"> Line Total</td></tr>
+                <tr class="white"><td>Printing and Binding(160*$1.75/each) </td>
+                    <td align="right">280.00 </td></tr>
+                <tr class="gray"><td>A4 Printing Paper(10*$15.20/5*500 Sheets) </td>
+                    <td align="right"> 152</td></tr>
+                <tr  class="white"><td> </td>
+                                <td> </td></tr>
+                <tr class="gray"><td> </td>
+                    <td> </td></tr>
+                <tr  class="white"><td>  </td>
+                    <td> </td></tr>
+                <tr class="gray"><td> </td>
+                    <td> </td></tr>
+                 <tr class="white"><td> </td>
+                    <td> </td></tr>
+                <tr class="gray"><td> </td>
+                    <td> </td></tr>
+                <tr  class="white"><td> </td>
+                    <td> </td></tr>
+            </table>
+        </tr>
+        <br>
+        <tr>
+            <table border="0" width="100%" align="left" >
+            <td>
+                <table width="100%" border="1">
+                    <tr bgcolor="blue"> <td>Special Notes And Instructions</td>
+                    </tr>
+                    <tr height="130px"><td> </td></tr>
+                </table>
+            </td>
+            <td>
+              <table width="100%" border="0" align="center">
+               <td>
+                 <table border="0" align="right" width="80%"  height="150px">
+                   
+                    <tr ><td>Subtotal</td></tr>
+                    <tr><td>Sales Tax Rate</td></tr>
+                    <tr><td> Sales Tax</td></tr>
+                    <tr><td>S&H</td></tr>
+                    <tr><td>Discount</td></tr>
+                    <tr><td><b>Total</b></td> </tr></table>
+                </td>
+                <td>
+                    <table width="100%"  border="0" height="150px">
+                        <tr><td style="width:6px;word-spacing:20px;height: 20px;"> $   432.00</td></tr>
+                        <tr><td style="border: 1px solid rgb(5, 1, 1);width:6px;word-spacing:30px;height: 5px;">% 0.00</td></tr>
+                        <tr><td style="width:6px;word-spacing:55px;height: 5px;">$ -</td></tr>
+                        <tr><td style="border: 1px solid black;width:6px;word-spacing:55px;height: 5px;">$ -</td></tr>
+                        <tr><td style="border: 1px solid black;width:6px;word-spacing:55px;height: 5px;">$ -</td></tr>
+                        <tr><td style="width:6px;word-spacing:20px;height: 5px;"><b>$ 432.00</b></td></tr>
+
+                    </table>        
+                </td>
+              </table>
+            </td>
+        </table>
+        </tr>
+        <br>
+        <br>
+        <p>
+        <center>Make all Checks payable to My company name</center>
+        <h3 align="center"><b>Thank You for your Business!</b></h3>
+        <center>Should you have any enquiries concerning this invoice,please contact John Doe on 0-00-000-0000</center>
+        <hr>
+        <center>111 Street,Towncity,Country,ST,00000</center>
+       <center> tel: 0-000-000-0000 fax:0-000-000-0000 E-mail:info@yourcompanysite.com Web:www.yourcompanysite.com</center>
+     </p>
+    </table>
+</div>
+</body>
+</html>
